@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/detail/detail",
+    "pages/car/car"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF481B",
+    "navigationBarTitleText": "Origins悦木之源官方商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF481B",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon/home.jpg",
+        "selectedIconPath": "images/icon/home.jpg"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "全部产品",
+        "iconPath": "images/icon/sort.jpg",
+        "selectedIconPath": "images/icon/sort.jpg"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "images/icon/car.jpg",
+        "selectedIconPath": "images/icon/car.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的订单",
+        "iconPath": "images/icon/my.jpg",
+        "selectedIconPath": "images/icon/my.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
